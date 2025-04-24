@@ -18,7 +18,7 @@ public class GatewayConfig {
     public RouteLocator customRoutes(RouteLocatorBuilder builder) {
         return builder.routes()
                 .route("customerID", r -> r.path("/api/v1/customer/**")
-                        .filters(f -> f.filter(cpuFilter))
+                       // .filters(f -> f.filter(cpuFilter))
                         .uri("lb://customer-service"))
                 .route("transactionID", r->r.path("/api/v1/transaction/**").uri("lb://transaction-service"))
                 .build();

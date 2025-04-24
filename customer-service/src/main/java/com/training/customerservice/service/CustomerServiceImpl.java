@@ -22,6 +22,7 @@ public class CustomerServiceImpl implements CustomerService{
 	
 	@Autowired
     private PasswordEncoder passwordEncoder;
+
 	
 	@Override
 	public Customer addCustomer(Customer customer) {

@@ -1,7 +1,5 @@
 package com.training.gatewayserver.component;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
@@ -19,7 +17,7 @@ import java.util.List;
 
 @Component
 public class CpuBasedLoadBalancerFilter implements GatewayFilter, Ordered {
-    private static final Logger log = LoggerFactory.getLogger(CpuBasedLoadBalancerFilter.class);
+
     private final DiscoveryClient discoveryClient;
 
     public CpuBasedLoadBalancerFilter(DiscoveryClient discoveryClient) {
@@ -31,14 +29,10 @@ public class CpuBasedLoadBalancerFilter implements GatewayFilter, Ordered {
         List<ServiceInstance> instances = discoveryClient.getInstances("CUSTOMER-SERVICE");
 
         if (instances == null || instances.isEmpty()) {
-            log.warn("No instances found for CUSTOMER-SERVICE");
             return chain.filter(exchange);
         }
         double systemLoad = getSystemCpuLoad();
-        log.info("System CPU Load: {}%", systemLoad * 100);
         ServiceInstance chosen = systemLoad < 0.7 ? instances.getFirst() : instances.getLast();
-        log.info("Routing to instance: {}:{} (CPU Load: {}%)",
-                chosen.getHost(), chosen.getPort(), systemLoad * 100);
         URI uri = chosen.getUri();
         ServerHttpRequest request = exchange.getRequest().mutate()
                 .uri(URI.create(uri.toString() + exchange.getRequest().getURI().getPath()))
@@ -54,7 +48,6 @@ public class CpuBasedLoadBalancerFilter implements GatewayFilter, Ordered {
             method.setAccessible(true);
             return (double) method.invoke(osBean);
         } catch (Exception e) {
-            log.error("Failed to fetch system CPU load", e);
             return 0.0;
         }
     }
