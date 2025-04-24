@@ -1,0 +1,538 @@
+2025-04-24T00:01:34.828+05:30  INFO 20272 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T00:06:34.871+05:30  INFO 20272 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T00:09:32.175+05:30  INFO 20272 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T00:09:49.736+05:30  INFO 20272 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T00:11:34.887+05:30  INFO 20272 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T00:16:34.894+05:30  INFO 20272 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T00:17:10.628+05:30  INFO 20272 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T00:17:27.061+05:30  INFO 20272 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T00:17:54.332+05:30  INFO 20272 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T00:21:34.896+05:30  INFO 20272 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T00:26:34.907+05:30  INFO 20272 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T00:31:34.911+05:30  INFO 20272 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T00:32:00.762+05:30  INFO 20272 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T00:36:34.913+05:30  INFO 20272 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T00:36:45.515+05:30  WARN 20272 --- [gateway-server] [reactor-http-nio-3] [                                                 ] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: customer-service
+2025-04-24T00:36:55.508+05:30  INFO 20272 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T00:37:31.656+05:30  INFO 20272 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T00:38:01.784+05:30  INFO 20272 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T00:41:34.926+05:30  INFO 20272 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T00:46:34.940+05:30  INFO 20272 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T00:46:55.107+05:30  INFO 20272 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2025-04-24T00:46:55.109+05:30  INFO 20272 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1745435815109, current=DOWN, previous=UP]
+2025-04-24T00:46:55.109+05:30  INFO 20272 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095: registering service...
+2025-04-24T00:46:55.131+05:30  INFO 20272 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095 - registration status: 204
+2025-04-24T00:46:55.139+05:30  INFO 20272 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-24T00:46:55.160+05:30  INFO 20272 --- [gateway-server] [netty-shutdown] [                                                 ] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2025-04-24T00:46:57.666+05:30  INFO 20272 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-04-24T00:47:00.672+05:30  INFO 20272 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-04-24T00:47:00.739+05:30  INFO 20272 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:100)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:745)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:702)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1401)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:661)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1394)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:155)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:752)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 37 more
+
+2025-04-24T00:47:00.740+05:30  WARN 20272 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-04-24T00:47:00.781+05:30  INFO 20272 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:100)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:745)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:702)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1401)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:661)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1394)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:155)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:752)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 38 more
+
+2025-04-24T00:47:00.782+05:30  WARN 20272 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-04-24T00:47:00.783+05:30 ERROR 20272 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095 - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900) ~[eureka-client-2.0.4.jar:2.0.4]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389) ~[spring-cloud-context-4.2.1.jar:4.2.1]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) ~[spring-cloud-context-4.2.1.jar:4.2.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:745) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:702) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1401) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:661) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1394) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:155) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147) ~[spring-boot-3.4.4.jar:3.4.4]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116) ~[spring-boot-3.4.4.jar:3.4.4]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2025-04-24T00:47:00.786+05:30  INFO 20272 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-04-24T05:42:21.304+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] c.t.g.GatewayServerApplication           : Starting GatewayServerApplication using Java 22.0.2 with PID 12420 (D:\java-virThreadNew\gateway-server\target\classes started by user in D:\java-virThreadNew\discovery-server)
+2025-04-24T05:42:21.312+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] c.t.g.GatewayServerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T05:42:23.154+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1c7127d2-3f52-3ce4-b416-122f4b40487e
+2025-04-24T05:42:24.550+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-04-24T05:42:24.550+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-04-24T05:42:24.551+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-04-24T05:42:24.551+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-04-24T05:42:24.551+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-04-24T05:42:24.551+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-04-24T05:42:24.551+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-04-24T05:42:24.552+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-04-24T05:42:24.552+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-04-24T05:42:24.552+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-04-24T05:42:24.552+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-04-24T05:42:24.553+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-04-24T05:42:24.553+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-04-24T05:42:24.554+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-04-24T05:42:25.016+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-04-24T05:42:25.510+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-04-24T05:42:25.575+05:30  WARN 12420 --- [gateway-server] [main] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-24T05:42:25.648+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-04-24T05:42:25.677+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-04-24T05:42:25.687+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T05:42:25.699+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-04-24T05:42:25.700+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-04-24T05:42:25.700+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-04-24T05:42:25.701+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-04-24T05:42:25.701+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-04-24T05:42:25.702+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-04-24T05:42:25.702+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-04-24T05:42:26.433+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-04-24T05:42:26.435+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-04-24T05:42:26.439+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-24T05:42:26.441+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1745453546440 with initial instances count: 0
+2025-04-24T05:42:26.446+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2025-04-24T05:42:26.447+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1745453546447, current=UP, previous=STARTING]
+2025-04-24T05:42:26.448+05:30  INFO 12420 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095: registering service...
+2025-04-24T05:42:26.631+05:30  INFO 12420 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095 - registration status: 204
+2025-04-24T05:42:26.695+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9095 (http)
+2025-04-24T05:42:26.697+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9095
+2025-04-24T05:42:26.747+05:30  INFO 12420 --- [gateway-server] [main] [                                                 ] c.t.g.GatewayServerApplication           : Started GatewayServerApplication in 6.451 seconds (process running for 7.532)
+2025-04-24T05:42:56.439+05:30  INFO 12420 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-04-24T05:42:56.440+05:30  INFO 12420 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-04-24T05:42:56.441+05:30  INFO 12420 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-04-24T05:42:56.442+05:30  INFO 12420 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-04-24T05:42:56.443+05:30  INFO 12420 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-04-24T05:42:56.444+05:30  INFO 12420 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-04-24T05:42:56.445+05:30  INFO 12420 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-04-24T05:42:56.512+05:30  INFO 12420 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-04-24T05:47:25.715+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T05:52:25.732+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T05:56:12.316+05:30  INFO 12420 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T05:57:03.228+05:30  INFO 12420 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T05:57:25.742+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T06:02:25.751+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T06:07:25.768+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T06:13:48.382+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T06:18:48.401+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T06:23:48.409+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T06:28:48.417+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T06:33:48.426+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T06:38:48.431+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T06:43:48.435+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T06:48:48.450+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T06:53:48.455+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T06:58:48.460+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T07:03:48.464+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T07:08:48.478+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T07:13:48.494+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T07:18:48.506+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T07:43:55.804+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T07:48:55.811+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T07:53:55.814+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T07:58:55.826+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T08:03:55.838+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T08:08:55.849+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T08:13:55.852+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T08:18:55.856+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T08:23:55.864+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T08:28:55.872+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T08:33:55.888+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T08:38:55.899+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T08:43:55.909+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T08:48:55.923+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T08:53:55.925+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T09:19:28.029+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T09:25:05.333+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:06:07.618+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:11:07.625+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:16:07.628+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:21:07.647+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:26:07.654+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:31:07.666+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:36:07.673+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:41:07.688+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:46:07.692+05:30  INFO 12420 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:47:49.177+05:30  INFO 12420 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2025-04-24T10:47:49.178+05:30  INFO 12420 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1745471869178, current=DOWN, previous=UP]
+2025-04-24T10:47:49.178+05:30  INFO 12420 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095: registering service...
+2025-04-24T10:47:49.202+05:30  INFO 12420 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095 - registration status: 204
+2025-04-24T10:47:49.224+05:30  INFO 12420 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-24T10:47:49.253+05:30  INFO 12420 --- [gateway-server] [netty-shutdown] [                                                 ] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2025-04-24T10:47:51.813+05:30  INFO 12420 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-04-24T10:47:54.826+05:30  INFO 12420 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-04-24T10:47:54.860+05:30  INFO 12420 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095 - deregister  status: 200
+2025-04-24T10:47:54.862+05:30  INFO 12420 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-04-24T10:48:00.670+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] c.t.g.GatewayServerApplication           : Starting GatewayServerApplication using Java 22.0.2 with PID 24656 (D:\java-virThreadNew\gateway-server\target\classes started by user in D:\java-virThreadNew\discovery-server)
+2025-04-24T10:48:00.674+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] c.t.g.GatewayServerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T10:48:02.150+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=04396eff-3b89-30fb-b8ca-dd05e2608b01
+2025-04-24T10:48:03.358+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-04-24T10:48:03.359+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-04-24T10:48:03.359+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-04-24T10:48:03.359+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-04-24T10:48:03.359+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-04-24T10:48:03.359+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-04-24T10:48:03.360+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-04-24T10:48:03.360+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-04-24T10:48:03.360+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-04-24T10:48:03.361+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-04-24T10:48:03.362+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-04-24T10:48:03.362+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-04-24T10:48:03.363+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-04-24T10:48:03.363+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-04-24T10:48:03.737+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-04-24T10:48:04.135+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-04-24T10:48:04.176+05:30  WARN 24656 --- [gateway-server] [main] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-24T10:48:04.243+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-04-24T10:48:04.266+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-04-24T10:48:04.273+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:48:04.284+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-04-24T10:48:04.285+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-04-24T10:48:04.285+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-04-24T10:48:04.285+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-04-24T10:48:04.285+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-04-24T10:48:04.285+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-04-24T10:48:04.285+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-04-24T10:48:04.802+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-04-24T10:48:04.806+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-04-24T10:48:04.818+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-24T10:48:04.822+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1745471884821 with initial instances count: 3
+2025-04-24T10:48:04.828+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2025-04-24T10:48:04.829+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1745471884829, current=UP, previous=STARTING]
+2025-04-24T10:48:04.837+05:30  INFO 24656 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095: registering service...
+2025-04-24T10:48:04.884+05:30  INFO 24656 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095 - registration status: 204
+2025-04-24T10:48:04.993+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9095 (http)
+2025-04-24T10:48:04.995+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9095
+2025-04-24T10:48:05.031+05:30  INFO 24656 --- [gateway-server] [main] [                                                 ] c.t.g.GatewayServerApplication           : Started GatewayServerApplication in 5.103 seconds (process running for 5.874)
+2025-04-24T10:53:04.301+05:30  INFO 24656 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:53:22.349+05:30  INFO 24656 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2025-04-24T10:53:22.350+05:30  INFO 24656 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1745472202350, current=DOWN, previous=UP]
+2025-04-24T10:53:22.350+05:30  INFO 24656 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095: registering service...
+2025-04-24T10:53:22.352+05:30  INFO 24656 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-24T10:53:22.355+05:30  INFO 24656 --- [gateway-server] [netty-shutdown] [                                                 ] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2025-04-24T10:53:22.359+05:30  INFO 24656 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095 - registration status: 204
+2025-04-24T10:53:25.443+05:30  INFO 24656 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-04-24T10:53:28.450+05:30  INFO 24656 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-04-24T10:53:28.468+05:30  INFO 24656 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095 - deregister  status: 200
+2025-04-24T10:53:28.468+05:30  INFO 24656 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-04-24T10:53:32.563+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] c.t.g.GatewayServerApplication           : Starting GatewayServerApplication using Java 22.0.2 with PID 13352 (D:\java-virThreadNew\gateway-server\target\classes started by user in D:\java-virThreadNew\discovery-server)
+2025-04-24T10:53:32.573+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] c.t.g.GatewayServerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T10:53:34.201+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1c7127d2-3f52-3ce4-b416-122f4b40487e
+2025-04-24T10:53:35.326+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-04-24T10:53:35.326+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-04-24T10:53:35.326+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-04-24T10:53:35.326+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-04-24T10:53:35.326+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-04-24T10:53:35.326+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-04-24T10:53:35.326+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-04-24T10:53:35.326+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-04-24T10:53:35.328+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-04-24T10:53:35.328+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-04-24T10:53:35.328+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-04-24T10:53:35.328+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-04-24T10:53:35.328+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-04-24T10:53:35.328+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-04-24T10:53:35.743+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-04-24T10:53:36.182+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-04-24T10:53:36.224+05:30  WARN 13352 --- [gateway-server] [main] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-24T10:53:36.298+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-04-24T10:53:36.326+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-04-24T10:53:36.335+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:53:36.352+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-04-24T10:53:36.352+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-04-24T10:53:36.352+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-04-24T10:53:36.353+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-04-24T10:53:36.353+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-04-24T10:53:36.353+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-04-24T10:53:36.353+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-04-24T10:53:36.815+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-04-24T10:53:36.817+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-04-24T10:53:36.819+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-24T10:53:36.822+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1745472216821 with initial instances count: 3
+2025-04-24T10:53:36.826+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2025-04-24T10:53:36.826+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1745472216826, current=UP, previous=STARTING]
+2025-04-24T10:53:36.829+05:30  INFO 13352 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095: registering service...
+2025-04-24T10:53:36.877+05:30  INFO 13352 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095 - registration status: 204
+2025-04-24T10:53:36.992+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9095 (http)
+2025-04-24T10:53:36.995+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9095
+2025-04-24T10:53:37.032+05:30  INFO 13352 --- [gateway-server] [main] [                                                 ] c.t.g.GatewayServerApplication           : Started GatewayServerApplication in 5.271 seconds (process running for 6.088)
+2025-04-24T10:53:52.882+05:30  INFO 13352 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T10:54:32.887+05:30  INFO 13352 --- [gateway-server] [reactor-http-nio-3] [                                                 ] c.t.g.c.TraceLoggingGatewayFilter        : Gateway Request Trace ID: null
+2025-04-24T10:55:50.514+05:30  INFO 13352 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2025-04-24T10:55:50.514+05:30  INFO 13352 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1745472350514, current=DOWN, previous=UP]
+2025-04-24T10:55:50.515+05:30  INFO 13352 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095: registering service...
+2025-04-24T10:55:50.517+05:30  INFO 13352 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-24T10:55:50.520+05:30  INFO 13352 --- [gateway-server] [netty-shutdown] [                                                 ] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2025-04-24T10:55:50.529+05:30  INFO 13352 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095 - registration status: 204
+2025-04-24T10:55:53.131+05:30  INFO 13352 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-04-24T10:55:56.132+05:30  INFO 13352 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-04-24T10:55:56.148+05:30  INFO 13352 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095 - deregister  status: 200
+2025-04-24T10:55:56.149+05:30  INFO 13352 --- [gateway-server] [SpringApplicationShutdownHook] [                                                 ] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-04-24T10:55:59.702+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] c.t.g.GatewayServerApplication           : Starting GatewayServerApplication using Java 22.0.2 with PID 22072 (D:\java-virThreadNew\gateway-server\target\classes started by user in D:\java-virThreadNew\discovery-server)
+2025-04-24T10:55:59.708+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] c.t.g.GatewayServerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T10:56:01.146+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=04396eff-3b89-30fb-b8ca-dd05e2608b01
+2025-04-24T10:56:02.253+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-04-24T10:56:02.253+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-04-24T10:56:02.253+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-04-24T10:56:02.254+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-04-24T10:56:02.254+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-04-24T10:56:02.254+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-04-24T10:56:02.254+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-04-24T10:56:02.254+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-04-24T10:56:02.254+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-04-24T10:56:02.255+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-04-24T10:56:02.255+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-04-24T10:56:02.255+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-04-24T10:56:02.255+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-04-24T10:56:02.255+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-04-24T10:56:02.619+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-04-24T10:56:03.007+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-04-24T10:56:03.048+05:30  WARN 22072 --- [gateway-server] [main] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-24T10:56:03.112+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-04-24T10:56:03.138+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-04-24T10:56:03.143+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T10:56:03.151+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-04-24T10:56:03.165+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-04-24T10:56:03.165+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-04-24T10:56:03.166+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-04-24T10:56:03.166+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-04-24T10:56:03.166+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-04-24T10:56:03.166+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-04-24T10:56:03.554+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-04-24T10:56:03.556+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-04-24T10:56:03.558+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-24T10:56:03.561+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1745472363560 with initial instances count: 3
+2025-04-24T10:56:03.566+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2025-04-24T10:56:03.568+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1745472363568, current=UP, previous=STARTING]
+2025-04-24T10:56:03.570+05:30  INFO 22072 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095: registering service...
+2025-04-24T10:56:03.624+05:30  INFO 22072 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-C0KDJA9.mshome.net:gateway-server:9095 - registration status: 204
+2025-04-24T10:56:03.745+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9095 (http)
+2025-04-24T10:56:03.747+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9095
+2025-04-24T10:56:03.782+05:30  INFO 22072 --- [gateway-server] [main] [                                                 ] c.t.g.GatewayServerApplication           : Started GatewayServerApplication in 4.85 seconds (process running for 5.64)
+2025-04-24T11:01:03.179+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T11:06:03.195+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T11:11:03.203+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T11:16:03.218+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T11:21:03.231+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T11:26:03.239+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T11:31:03.254+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T11:36:03.259+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T11:41:03.268+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T11:46:03.283+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T11:51:03.292+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T11:56:03.306+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T12:01:03.314+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T12:06:03.323+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T12:11:03.338+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T12:16:03.353+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T12:21:03.357+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T12:26:03.366+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T12:31:03.380+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T12:36:03.397+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T12:41:03.403+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T12:46:03.416+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T12:51:03.424+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T12:56:03.440+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T13:01:03.450+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T13:06:03.452+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T13:11:03.459+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T13:16:03.462+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T13:21:03.466+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T13:26:03.470+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T13:31:03.493+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T13:36:03.497+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T13:41:03.508+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T13:46:03.521+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T13:51:03.525+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T13:56:03.526+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T14:01:03.529+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T14:06:03.531+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T14:11:03.545+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T14:16:03.570+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T14:21:03.572+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T14:26:03.579+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T14:31:03.586+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T14:36:03.588+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T14:41:03.612+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T14:46:03.623+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T14:51:03.627+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T14:56:03.629+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T15:01:03.650+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T15:06:03.663+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T15:11:03.679+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T15:16:03.691+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T15:21:03.713+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T15:23:34.399+05:30  WARN 22072 --- [gateway-server] [reactor-http-nio-3] [                                                 ] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: customer-service
+2025-04-24T15:23:42.729+05:30  WARN 22072 --- [gateway-server] [reactor-http-nio-3] [                                                 ] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: customer-service
+2025-04-24T15:26:03.720+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T15:31:03.727+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T15:36:03.739+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T15:41:03.754+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T15:46:03.758+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T15:51:03.763+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T15:56:03.778+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T16:01:03.787+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T16:06:03.807+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T16:11:03.810+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-04-24T16:16:03.818+05:30  INFO 22072 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
